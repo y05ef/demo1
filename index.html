@@ -2,6 +2,12 @@
 <html>
 <head>
 <head>
+<script>
+    function load()
+    {
+    alert("Hello? Welcome to my *DEMO* Page . Thank you :/");
+    }
+</script>
 <!--Import icons,logo-->
 <link href="/D4E8E2AA-09EE-4049-8F31-2C5F0378389D.jpeg" rel="shortcut icon">
 <link rel="apple-touch-icon" sizes="180x180" href="/D4E8E2AA-09EE-4049-8F31-2C5F0378389D.jpeg">
@@ -21,7 +27,7 @@ media="screen,projection"/>
 <script src="/assets/materialize.min.js"></script>
 <script src="/assets/main.js"></script>
 </head>
-<body>
+<body> <body onload="load()">
 <header>
 <div class="parallax-container">
 <div class="parallax">
@@ -73,10 +79,35 @@ Test
 </tbody>
 </table>
 </div>
-<div class="card-reveal"></div>
-<div class="card-reveal"></div>
-<div class="card-reveal"></div>
-<div class="card-reveal"></div>
+<p>Testing</p>
+<div class="col s12 m6 animate-in">
+<div class="card hoverable">
+<div class="card-content">
+<span class="card-title activator"><i class="fa fa-test" aria-hidden="true"></i>Test<i class="fa fa-caret-down right" aria-hidden="true"></i>
+</span>
+<p>Tell me about it !!!</p>
+<p class="blue-grey-text text-lighten-4">
+Test
+0</p>
+</div>
+<div class="card-reveal">
+<span class="card-title grey-text text-darken-4"><i class="fa fa-?" aria-hidden="true"></i>
+Test
+<i class="fa fa-caret-up right" aria-hidden="true"></i>
+</span>
+<table class="bordered">
+<tbody>
+<tr>
+<td>Hello</td>
+<td>!!!</td>
+</tr>
+<tr>
+<td>Hi</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
 </main>
 </body>
 </html>
