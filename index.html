@@ -6,6 +6,23 @@
     {
     alert("Hello? Welcome to my *DEMO* Page . Thank you :/");
     }
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 </script>
 <!--Import icons,logo-->
 <link href="/D4E8E2AA-09EE-4049-8F31-2C5F0378389D.jpeg" rel="shortcut icon">
@@ -26,6 +43,7 @@ media="screen,projection"/>
 <script src="/assets/materialize.min.js"></script>
 <script src="/assets/main.js"></script>
 </head>
+<div class="loader"></div>
 <body> <body onload="load()">
 <header>
 <div class="parallax-container">
@@ -48,30 +66,57 @@ user</h5>
 </div>
 </div>
 </header>
-!-- Twitter -->
+<!-- Twitter -->
     <div class="col s12 m6 animate-in">
         <div class="card hoverable">
             <div class="card-content">
-                <span class="card-title activator"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter<i class="fa fa-caret-up right" aria-hidden="true"></i></span>
-                <p>I am having this Twitter account since 2011, but I am moslty active since 2013.</p>
+                <span class="card-title activator"><i class="fa fa-error" aria-hidden="true"></i> Twitter<i class="fa fa-caret-down right" aria-hidden="true"></i></span>
+                <p>0</p>
                 <p class="blue-grey-text text-lighten-4">
-                    Followers:
-                    857                </p>
+                    0
+                    0                </p>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter<i class="fa fa-caret-down right" aria-hidden="true"></i></span>
+                <span class="card-title grey-text text-darken-4"><i class="fa fa-twitter" aria-hidden="true"></i> Test<i class="fa fa-caret-up right" aria-hidden="true"></i></span>
                 <table class="bordered">
                     <tbody>
                     <tr>
-                        <td>Followers</td>
+                        <td>0</td>
                         <td>
-                            857                        </td>
+                            0                        </td>
                     </tr>
                     </tbody>
                 </table>
             </div>
             <div class="card-action">
-                <a target="_blank" href="https://www.twitter.com/idoodler">@idoodler</a>
+                <a target="_blank" href="/">Home</a>
+            </div>
+        </div>
+    </div>
+<!-- Twitter -->
+    <div class="col s12 m6 animate-in">
+        <div class="card hoverable">
+            <div class="card-content">
+                <span class="card-title activator"><i class="fa fa-error" aria-hidden="true"></i> Twitter<i class="fa fa-caret-down right" aria-hidden="true"></i></span>
+                <p>0</p>
+                <p class="blue-grey-text text-lighten-4">
+                    0
+                    0                </p>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"><i class="fa fa-twitter" aria-hidden="true"></i> Test<i class="fa fa-caret-up right" aria-hidden="true"></i></span>
+                <table class="bordered">
+                    <tbody>
+                    <tr>
+                        <td>0</td>
+                        <td>
+                            0                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-action">
+                <a target="_blank" href="/">Home</a>
             </div>
         </div>
     </div>
