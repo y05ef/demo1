@@ -27,16 +27,20 @@ media="screen,projection"/>
 <script src="/assets/main.js"></script>
 <style>
 img.me {
-          border-raduis:50% 1px #263238 solid;
+          border-raduis:50%;
 }
+#me {
+        border:1px #263238 solid;
+}
+
 </style>
 </head>
 <div class="loader"></div>
 <body> <body onload="load()">
 <header>
 <center>
-<img class="me" src="/assets/me.jpeg"width="150" height="150"/>
-<h4 class="center black-text"> Joseph&#8313;&#8313;</h4>
+<div id="me"><img class="me" src="/assets/me.jpeg"width="150" height="150"/>
+<h4 class="center black-text"></div>Joseph&#8313;&#8313;</h4>
             <h5 class="center black-text">Coder & Web Tester</h5>
 </center>
 </header>
